@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-redux-crud.git/static/css/main.fe9fec46.css",
+    "main.js": "/react-redux-crud.git/static/js/main.115d7a13.js",
+    "index.html": "/react-redux-crud.git/index.html",
+    "main.fe9fec46.css.map": "/react-redux-crud.git/static/css/main.fe9fec46.css.map",
+    "main.115d7a13.js.map": "/react-redux-crud.git/static/js/main.115d7a13.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe9fec46.css",
+    "static/js/main.115d7a13.js"
+  ]
+}
