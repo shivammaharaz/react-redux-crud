@@ -1,0 +1,71 @@
+.user {
+  height: auto;
+  width: 350px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 1px 3px 24px 1px gray;
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.user:hover {
+  transform: scale(1.12);
+  z-index: 999;
+}
+.user input {
+  width: 120px;
+  text-align: center;
+  padding: 2px;
+  font-weight: bold;
+}
+.user button {
+  background-color: rgb(42, 54, 168);
+  outline: none;
+  border: none;
+  margin: 0 5px;
+  color: white;
+  padding: 4px;
+  border-radius: 2px;
+  box-shadow: 1px 3px 4px 1px gray;
+  cursor: pointer;
+}
+
+.main {
+  height: auto;
+  width: 100vw;
+  overflow: hidden;
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 10px;
+}
+.main button {
+  background-color: rgb(168, 42, 113);
+  outline: none;
+  border: none;
+  margin: 0 5px;
+  color: white;
+  padding: 7px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 10px 2px rgb(26, 23, 23);
+  cursor: pointer;
+}
+
+.main input {
+  padding: 4px;
+  border-radius: 4px;
+  border: none;
+  outline: solid greenyellow;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+.main input:hover {
+  transform: scale(1.1);
+}
+.main button:hover {
+  transform: scale(1.1);
+}
